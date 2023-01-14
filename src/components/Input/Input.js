@@ -56,6 +56,9 @@ const InputLabel = styled.Text`
 const InputField = styled.TextInput`
   flex: 1;
   padding: ${props => props.theme.spacing.md};
+  font-family: ${props => props.theme.fontFamily};
+  font-size: ${props => props.theme.typeScale.body}px;
+  color: ${props => props.theme.blackColor};
 `;
 
 const PasswordIconView = styled.Pressable`

@@ -51,10 +51,13 @@ const Title = styled.Text`
   font-size: ${({theme}) => theme.typeScale.title}px;
   color: ${({theme}) => theme.blackColor};
   margin-bottom: ${({theme}) => theme.spacing.xs};
+  font-family: ${({theme}) => theme.fontFamily};
 `;
 
 const SubTitle = styled.Text`
-  font-size: ${({theme}) => theme.typeScale.body};
+  font-size: ${({theme}) => theme.typeScale.body}px;
+  font-family: ${({theme}) => theme.fontFamily};
+  color: ${({theme}) => theme.blackColor};
 `;
 
 export default WelcomeScreen;
