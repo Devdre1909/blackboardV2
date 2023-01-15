@@ -32,11 +32,12 @@ const Container = styled.View`
   background-color: ${({theme}) => theme.whiteColor};
   justify-content: space-between;
   align-items: center;
-  padding: 0 2px;
+  padding: 0 ${({theme}) => theme.spacing.md};
 `;
 
 const ContentWrapper = styled.View`
   margin-bottom: ${DeviceHeight / 16}px;
+  width: 100%;
 `;
 
 const LogoImage = styled.Image`
@@ -51,12 +52,12 @@ const Title = styled.Text`
   font-size: ${({theme}) => theme.typeScale.title}px;
   color: ${({theme}) => theme.blackColor};
   margin-bottom: ${({theme}) => theme.spacing.xs};
-  font-family: ${({theme}) => theme.fontFamily};
+  font-family: ${({theme}) => theme.fontFamily.bold};
 `;
 
 const SubTitle = styled.Text`
   font-size: ${({theme}) => theme.typeScale.body}px;
-  font-family: ${({theme}) => theme.fontFamily};
+  font-family: ${({theme}) => theme.fontFamily.regular};
   color: ${({theme}) => theme.blackColor};
 `;
 

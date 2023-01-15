@@ -23,7 +23,7 @@ const ButtonText = styled.Text`
   text-align: center;
   font-weight: bold;
   font-size: ${({theme}) => theme.typeScale.body}px;
-  font-family: ${({theme}) => theme.fontFamily};
+  font-family: ${({theme}) => theme.fontFamily.medium};
 `;
 
 export default Button;

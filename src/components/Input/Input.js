@@ -50,13 +50,14 @@ const InputWrapper = styled.View`
 const InputLabel = styled.Text`
   font-size: ${props => props.theme.typeScale.caption}px;
   color: ${props => props.theme.blackColor};
+  font-family: ${props => props.theme.fontFamily.regular};
   margin-bottom: ${props => props.theme.spacing.sm};
 `;
 
 const InputField = styled.TextInput`
   flex: 1;
   padding: ${props => props.theme.spacing.md};
-  font-family: ${props => props.theme.fontFamily};
+  font-family: ${props => props.theme.fontFamily.regular};
   font-size: ${props => props.theme.typeScale.body}px;
   color: ${props => props.theme.blackColor};
 `;
@@ -68,7 +69,7 @@ const PasswordIconView = styled.Pressable`
 const ErrorText = styled.Text`
   color: ${props => props.theme.errorColor};
   font-size: ${props => props.theme.typeScale.caption}px;
-`
+  font-family: ${props => props.theme.fontFamily.regular};
+`;
 
 export default Input;
-

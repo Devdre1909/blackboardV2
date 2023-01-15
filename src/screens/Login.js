@@ -47,11 +47,13 @@ const Title = styled.Text`
   margin-top: ${props => props.theme.spacing.sm};
   color: ${props => props.theme.blackColor};
   font-weight: bold;
+  font-family: ${props => props.theme.fontFamily.bold};
   text-align: left;
 `;
 
 const ErrorText = styled.Text`
   color: ${props => props.theme.errorColor};
   font-size: ${props => props.theme.typeScale.caption}px;
+  font-family: ${props => props.theme.fontFamily.regular};
 `;
 export default Login;

@@ -1,5 +1,12 @@
 export const typography = {
-  font: 'DM Sans',
+  font: {
+    bold: 'DMSans-Bold',
+    boldItalic: 'DMSans-BoldItalic',
+    italic: 'DMSans-Italic',
+    medium: 'DMSans-Medium',
+    mediumItalic: 'DMSans-MediumItalic',
+    regular: 'DMSans-Regular',
+  },
   typeScale: {
     title: 32,
     heading: 24,
