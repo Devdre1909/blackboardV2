@@ -34,7 +34,7 @@ const CustomTabBarButton = ({children, onPress}) => (
 const TabStack = () => {
   return (
     <Tab.Navigator
-      initialROuteName="Lesson"
+      initialRouteName="Lesson"
       screenOptions={({route}) => ({
         tabBarShowLabel: false,
         headerShown: false,
@@ -71,6 +71,7 @@ const TabStack = () => {
                     ? defaultTheme.accentColor
                     : defaultTheme.disabledColor,
                   fontSize: 12,
+                  fontFamily: defaultTheme.fontFamily.medium
                 }}>
                 PROFILE
               </Text>
@@ -116,6 +117,7 @@ const TabStack = () => {
                     ? defaultTheme.accentColor
                     : defaultTheme.disabledColor,
                   fontSize: 12,
+                  fontFamily: defaultTheme.fontFamily.medium
                 }}>
                 NOTES
               </Text>

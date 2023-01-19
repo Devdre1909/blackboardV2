@@ -1,13 +1,19 @@
+import 'react-native-get-random-values'
 import React from 'react';
-import {View} from 'react-native';
-import { ThemeProvider } from 'styled-components';
+import {ThemeProvider} from 'styled-components';
+
 import Providers from './src/navigation';
-import { defaultTheme } from './src/utils';
+import {defaultTheme} from './src/utils';
+import RealmContext from './src/models';
 
 const App = () => {
+  const {RealmProvider} = RealmContext;
+
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Providers />
+      <RealmProvider>
+        <Providers />
+      </RealmProvider>
     </ThemeProvider>
   );
 };
