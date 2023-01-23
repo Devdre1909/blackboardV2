@@ -1,4 +1,4 @@
-package com.blackboardv2.newarchitecture.components;
+package africa.futureacademy.blackboard.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

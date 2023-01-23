@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.blackboardv2">
+  package="africa.futureacademy.blackboard">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

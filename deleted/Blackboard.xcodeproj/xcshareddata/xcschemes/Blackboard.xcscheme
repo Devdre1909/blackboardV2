@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "BlackboardV2.app"
-               BlueprintName = "BlackboardV2"
-               ReferencedContainer = "container:BlackboardV2.xcodeproj">
+               BuildableName = "Blackboard.app"
+               BlueprintName = "Blackboard"
+               ReferencedContainer = "container:Blackboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "BlackboardV2Tests.xctest"
-               BlueprintName = "BlackboardV2Tests"
-               ReferencedContainer = "container:BlackboardV2.xcodeproj">
+               BuildableName = "BlackboardTests.xctest"
+               BlueprintName = "BlackboardTests"
+               ReferencedContainer = "container:Blackboard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "BlackboardV2.app"
-            BlueprintName = "BlackboardV2"
-            ReferencedContainer = "container:BlackboardV2.xcodeproj">
+            BuildableName = "Blackboard.app"
+            BlueprintName = "Blackboard"
+            ReferencedContainer = "container:Blackboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "BlackboardV2.app"
-            BlueprintName = "BlackboardV2"
-            ReferencedContainer = "container:BlackboardV2.xcodeproj">
+            BuildableName = "Blackboard.app"
+            BlueprintName = "Blackboard"
+            ReferencedContainer = "container:Blackboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

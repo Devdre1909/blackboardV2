@@ -86,7 +86,7 @@ const Lesson = () => {
           <View style={styles.prevLessonProgressLine}></View>
         </View>
       </View>
-      <Text style={styles.title}>Lesson</Text>
+      <Text style={styles.title}>Lessons</Text>
       <FlatList
         scrollEnabled={true}
         data={lessons}
